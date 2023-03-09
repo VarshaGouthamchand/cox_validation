@@ -1,0 +1,1 @@
+[{"original_shape_MeshVolume":0.17344,"original_shape_Sphericity":-0.23308}]

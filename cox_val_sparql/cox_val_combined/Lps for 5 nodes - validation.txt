@@ -1,0 +1,57 @@
+Lp's for 5 nodes
+Univariate
+
+           coef exp.coef.      SE lower_ci upper_ci     Z      P
+lp_clin 0.36017   1.43357 0.02244  1.37189  1.49803 19.32 <2e-16
+
+      coef exp.coef.      SE lower_ci upper_ci    Z    P
+lp 0.14087   1.15127 0.06704  1.00952  1.31294 2.26 0.02
+
+Multivariate
+
+            coef exp.coef.      SE lower_ci upper_ci     Z      P
+lp_clin  0.36170   1.43577 0.02309  1.37224  1.50224 18.87 <2e-16
+lp      -0.01944   0.98075 0.06973  0.85546  1.12438 -0.28    0.8
+
+Validation (Trained on all 5 nodes)
+Node 5
+{"Concordance Index": 0.6588124410933082}
+Node 4
+{"Concordance Index": 0.7302055319746407}
+Node 3
+{"Concordance Index": 0.6010362694300518}
+Node 2 
+{"Concordance Index": 0.6421618418825122}
+Node 1 
+{"Concordance Index": 0.7240973312401884}
+
+Train on 4, validate node 5
+
+            coef exp.coef.      SE lower_ci upper_ci     Z      P
+lp_clin  0.37293   1.45198 0.02389  1.38556  1.52159 18.92 <2e-16
+lp      -0.02559   0.97474 0.07164  0.84704  1.12168 -0.35    0.7
+{"Concordance Index": 0.6588124410933082}
+
+Train on 4, validate node 4
+           coef exp.coef.      SE lower_ci upper_ci    Z      P
+lp_clin 0.33561   1.39879 0.04198  1.28831  1.51875 9.50 <2e-16
+lp      0.12009   1.12760 0.09778  0.93094  1.36580 1.31    0.2
+{"Concordance Index": 0.7254425471708302}
+
+Train on 4, validate node 3
+            coef exp.coef.      SE lower_ci upper_ci     Z      P
+lp_clin  0.35071   1.42008 0.02346  1.35626  1.48690 17.91 <2e-16
+lp      -0.04087   0.95996 0.07084  0.83551  1.10294 -0.57    0.6
+{"Concordance Index": 0.5949913644214162}
+
+Train on 4, validate node 2
+            coef exp.coef.      SE lower_ci upper_ci     Z      P
+lp_clin  0.33335   1.39563 0.02499  1.32892  1.46570 15.83 <2e-16
+lp      -0.01192   0.98816 0.07855  0.84715  1.15262 -0.15    0.9
+{"Concordance Index": 0.6417809378703233}
+
+Train on 4, validate node 1
+            coef exp.coef.      SE lower_ci upper_ci     Z      P
+lp_clin  0.37837    1.4599 0.02479  1.39066  1.53259 18.55 <2e-16
+lp      -0.03875    0.9620 0.08366  0.81650  1.13340 -0.45    0.6
+{"Concordance Index": 0.7237048665620094}

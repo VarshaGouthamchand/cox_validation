@@ -1,0 +1,1 @@
+[{"Treatment_ChemoRadiotherapy":-0.92763,"T3orHigher":0.92249,"HPV_HPV_Positive":-0.18313,"HPV_HPV_Negative":0.82805,"N2orHigher":0.27112,"firstorderenergy":0.79121,"volume":0.13441,"sphericity":-0.16411,"wav_glrlm":-0.48628}]
